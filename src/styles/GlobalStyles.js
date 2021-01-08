@@ -1,6 +1,4 @@
-import React from 'react';
-
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
   *, *:before, *:after {
@@ -18,6 +16,6 @@ const GlobalStyles = createGlobalStyle`
   a {
     color: var(--color-secondary);
   }
-`;
+`
 
-export default GlobalStyles;
+export default GlobalStyles
