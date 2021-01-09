@@ -1,12 +1,19 @@
-import React from 'react';
+import React from "react"
+import { Link } from "gatsby"
+// Components
+import Layout from "../components/layout/Layout"
+import Metadata from "../components/layout/Metadata"
 
-import Layout from '../components/Layout';
+const NotFound = () => {
+	return (
+		<Layout>
+			<Metadata title="404" description="404 - Page not found" />
+			<h1>404: Page Not Found</h1>
+			<p>
+				<Link to="/blog/">Check our latest articles</Link>
+			</p>
+		</Layout>
+	)
+}
 
-const NotFoundPage = () => (
-  <Layout>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </Layout>
-);
-
-export default NotFoundPage;
+export default NotFound

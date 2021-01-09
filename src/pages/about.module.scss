@@ -1,0 +1,38 @@
+.container:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+.container {
+	margin: 0 0 2em 0;
+	padding: 1em 3em 1em 3em;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	
+	.title,
+	p {
+		text-align: center;
+	}
+	.pJustify {
+		text-align: justify;
+	}
+
+	.imgMe {
+		margin: 0 auto;
+		display: block;
+		width: 200px;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	}
+
+	.ulist {
+		columns: 2;
+		list-style: none;
+		margin: 0 auto;
+		width: 50%;
+
+		li {
+			margin: 0 0 5px 0;
+		}
+	}
+}

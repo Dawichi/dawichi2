@@ -1,0 +1,37 @@
+.projects-section {
+	background-color: #272121;
+	padding: 30px;
+
+	h4 {
+		color: white;
+		margin: 20px auto;
+	}
+
+	img {
+		width: 100%;
+		margin: 20px 0;
+
+		&:hover {
+			transform: translate(0px, -3px);
+			transition-duration: 0.5s;
+		}
+	}	
+}
+
+.contact-section {
+	background-color: #443737;
+	padding: 30px;
+
+	h4 {
+		color: white;
+		margin: 0 auto;
+	}
+	button {
+		margin: 20px auto;
+	}
+	
+	a {
+		color: white;
+		text-decoration: none;
+	}
+}

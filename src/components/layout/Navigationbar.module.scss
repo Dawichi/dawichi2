@@ -1,0 +1,19 @@
+/* NavBar Bootstrap */
+.NavbarContainer {
+	background-color: var(--color-container);
+
+	a {
+		color: var(--color-primary);
+		padding: 8px 20px;
+		margin: 0;
+		
+		&:hover {
+			color: var(--color-secondary);
+		}
+	}
+}
+
+.active { /* Acive Link */
+	color: var(--color-secondary) !important;
+	text-decoration: underline;
+}

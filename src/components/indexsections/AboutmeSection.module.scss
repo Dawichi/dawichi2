@@ -1,0 +1,35 @@
+.aboutme-section {
+	padding-right: 0;
+	padding-left: 0;
+
+	svg {
+		height: 12vh;
+		width: 100%;
+		
+		path {stroke: none;fill: #1b1d2e;}
+	}
+
+	.whoiam {
+		background-color: #1b1d2e;
+		color: white;
+
+		h4 {margin: 0 auto;}
+		button {
+			margin: 20px auto 35px auto;
+			a {color: white;}
+		}
+	}
+
+	.whaticando {
+		background-color: #2d3047;
+		color: white;
+		padding: 30px 30px;
+		
+		h4 {margin: 30px 20px;}
+		button {
+			margin: 0 20px 35px 20px;
+			a {color: white;}
+		}
+		span {float: right;}
+	}
+}

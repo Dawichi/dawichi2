@@ -1,0 +1,23 @@
+.overlay {
+	background-image: url("../images/index-overlay.jpg");
+	background-position: center; /* Center the image */
+ 	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+	
+}
+.greets-section {
+	background-color: #419d78ea;
+	padding: 50px 0 0 0;
+
+	.subtitle {
+
+		&:hover {
+			transform: translate(0px, -10px);
+			transition-duration: 0.5s;
+		}
+		
+		h2 {margin: 0 auto;}
+		
+	}
+	
+}
