@@ -12,42 +12,44 @@ const ProjectsSection = () => {
 
 				<Row><h4>Open Source Projects</h4></Row>
 
+				<Row><Container><Row><Col><hr/></Col></Row></Container></Row>
+
 				<Row>
 					<Container>
 						<Row>
 							<Col xs={12} md={6} lg={4}>
 								<a href="https://github.com/dawichi/dawichi.dev" target="blank">
-									<img src="https://github-readme-stats.dawichi.vercel.app/api/pin/?username=dawichi&repo=dawichi.dev" />
+									<img src="https://github-readme-stats.dawichi.vercel.app/api/pin/?username=dawichi&repo=dawichi.dev&theme=custom" />
 								</a>
 							</Col>
 
 							<Col xs={12} md={6} lg={4}>
 								<a href="https://github.com/dawichi/cloud-app" target="blank">
-									<img src="https://github-readme-stats.dawichi.vercel.app/api/pin/?username=dawichi&repo=cloud-app" />
+									<img src="https://github-readme-stats.dawichi.vercel.app/api/pin/?username=dawichi&repo=cloud-app&theme=custom" />
 								</a>
 							</Col>
 
 							<Col xs={12} md={6} lg={4}>
 								<a href="https://github.com/dawichi/gif-expert-app" target="blank">
-									<img src="https://github-readme-stats.dawichi.vercel.app/api/pin/?username=dawichi&repo=gif-expert-app" />
+									<img src="https://github-readme-stats.dawichi.vercel.app/api/pin/?username=dawichi&repo=gif-expert-app&theme=custom " />
 								</a>
 							</Col>
 
 							<Col xs={12} md={6} lg={4}>
 								<a href="https://github.com/dawichi/dawichi-card" target="blank">
-									<img src="https://github-readme-stats.dawichi.vercel.app/api/pin/?username=dawichi&repo=dawichi-card" />
+									<img src="https://github-readme-stats.dawichi.vercel.app/api/pin/?username=dawichi&repo=dawichi-card&theme=custom " />
 								</a>
 							</Col>
 
 							<Col xs={12} md={6} lg={4}>
 								<a href="https://github.com/dawichi/ReactHooks" target="blank">
-									<img src="https://github-readme-stats.dawichi.vercel.app/api/pin/?username=dawichi&repo=ReactHooks" />
+									<img src="https://github-readme-stats.dawichi.vercel.app/api/pin/?username=dawichi&repo=ReactHooks&theme=custom " />
 								</a>
 							</Col>
 
 							<Col xs={12} md={6} lg={4}>
 								<a href="https://github.com/dawichi/w3-bootstrap4" target="blank">
-									<img src="https://github-readme-stats.dawichi.vercel.app/api/pin/?username=dawichi&repo=w3-bootstrap4" />
+									<img src="https://github-readme-stats.dawichi.vercel.app/api/pin/?username=dawichi&repo=w3-bootstrap4&theme=custom" />
 								</a>
 							</Col>
 						</Row>
@@ -55,7 +57,7 @@ const ProjectsSection = () => {
 				</Row>
 			</Container>
 
-			<Container className={ProjectsSectionStyles.contactSection} fluid>
+			<Container className={ProjectsSectionStyles.contactContainer} fluid>
 				<Row>
 					<h4>Get in touch</h4>
 				</Row>

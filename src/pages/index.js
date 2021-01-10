@@ -17,20 +17,19 @@ const Index = () => {
 		<Layout>
 			<Metadata title="Home" description="My home page" />
 			
-			<div className={indexStyles.overlay}>
-				<Container className={indexStyles.greetsSection} fluid>
-					<Container className={indexStyles.subtitle}>
-						<Row><h2>Hi all, I am Dawichi! <SuitHeartFill/></h2></Row>
-						<Row><h2>Welcome to my portfolio!</h2></Row>
-						<Row><p> </p></Row>
-						<Row><h2>IMPORTANT: THIS SITE IS UNDER CONSTRUCTION, ITS INCOMPLETE!</h2></Row>
-						<Row><h2>YOU CAN FOLLOW THE DEVELOPMENT ON GITHUB</h2></Row>
-					</Container>
-
-					<AboutmeSection/>{/* Who i am and what i can do */}
+			<Container fluid className={indexStyles.greetsContainer}>
+				<Container className={indexStyles.greets}>
+					<Row><h2>Hi all, I am <span>Dawichi</span>! <SuitHeartFill/></h2></Row>
+					<Row><h2>Welcome to my portfolio!</h2></Row>
+					<Row><p> </p></Row>
+					<Row><h2>IMPORTANT: THIS SITE IS UNDER CONSTRUCTION, ITS INCOMPLETE!</h2></Row>
+					<Row><h2>YOU CAN FOLLOW THE DEVELOPMENT ON GITHUB</h2></Row>
 				</Container>
-			</div>
-			
+
+				<AboutmeSection/>{/* Who i am and what i can do */}
+			</Container>
+
+
 			
 			<ExperiencieSection/>{/* My experiencie on jobs */}
 			

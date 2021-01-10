@@ -6,12 +6,12 @@
 		height: 12vh;
 		width: 100%;
 		
-		path {stroke: none;fill: #1b1d2e;}
+		path {stroke: none;fill: #03dac527;}
 	}
 
 	.whoiam {
-		background-color: #1b1d2e;
-		color: white;
+		background-color: #03dac527;
+		color: var(--color-text);
 
 		h4 {margin: 0 auto;}
 		button {
@@ -21,8 +21,9 @@
 	}
 
 	.whaticando {
-		background-color: #2d3047;
-		color: white;
+		background-color: var(--color-container);
+		border-radius: 10px;
+		color: var(--color-text);
 		padding: 30px 30px;
 		
 		h4 {margin: 30px 20px;}

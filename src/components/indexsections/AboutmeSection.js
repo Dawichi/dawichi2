@@ -14,14 +14,14 @@ const AboutmeSection = () => {
 
 			<Container className={AboutmeSectionStyles.whoiam} fluid>
 				<Row><h4>Who I am?</h4></Row>
-				<Row><Button variant="info"><Link to="/about/">More info</Link></Button></Row>
+				<Row><Button variant="info"><Link to="/about/">About me</Link></Button></Row>
 			</Container>
 
 			<Container className={AboutmeSectionStyles.whaticando} fluid>
 				<Row>
 					<Col xs={12} lg={3}>
 						<h4>And what can I do?</h4>
-						<Button variant="info"><Link to="/skills/">More info</Link></Button>
+						<Button variant="info"><Link to="/skills/">My skills</Link></Button>
 					</Col>
 
 					<Col xs={12} lg={4}>
@@ -42,8 +42,8 @@ const AboutmeSection = () => {
 							<ProgressBar striped variant="primary" now={95} animated />
 						</p>
 						<p>
-							Gatsby / GraphQL <span>45%</span>
-							<ProgressBar striped variant="dark" now={45} animated />
+							Gatsby / GraphQL <span>65%</span>
+							<ProgressBar striped variant="dark" now={65} animated />
 						</p>
 						<p>
 							MariaDB / MySQL <span>80%</span>
