@@ -19,11 +19,11 @@ const Footer = () => {
 				<div className={ footerStyles.container }>
 					<Container>
 						<Row>
-							<Col>
+							<Col xs={12} sm={6}>
 								Site developed by me &copy;{" "}
 								{new Date().getFullYear().toString()}{" "}
 							</Col>
-							<Col>
+							<Col xs={12} sm={6}>
 								Made with so much <span>♥</span>! 감사합니다!
 							</Col>
 						</Row>
