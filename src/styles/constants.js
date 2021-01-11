@@ -24,12 +24,12 @@ export const COLORS = {
 		dark: '#3700b3',
 	},
 	secondary: {
-		light: '#03dac6',
+		light: '#01a299',
 		dark: '#03dac6',
 	},
 	secondaryvariant: {
 		light: '#018786',
-		dark: '#03dac6',
+		dark: '#018786',
 	},
 	text: {
 		light: '#121212',

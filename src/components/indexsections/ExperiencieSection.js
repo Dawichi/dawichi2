@@ -15,12 +15,12 @@ const ExperiencieSection = () => {
 
 			<Container className={ExperiencieStyles.experiencies} fluid>
 				<Row>
-					<Col xs={12} md={4} lg={3} height="100%">
+					<Col xs={12} sm={6} md={4} lg={3} height="100%">
 						<h4>Experiencies</h4>
 						<Button variant="info" href="https://www.linkedin.com/in/dawichi/" target="blank" className={ExperiencieStyles.button}><ArrowUpRight/> More info</Button>
 					</Col>
 
-					<Col xs={12} md={4} lg={3}>
+					<Col xs={12} sm={6} md={4} lg={3}>
 						<Card className={ExperiencieStyles.card}>
 							<a href="https://dosespacios.com">
 								<Card.Img variant="top" src={dosespacios} alt="dosespacios"/>
@@ -34,7 +34,7 @@ const ExperiencieSection = () => {
 					</Col>
 
 
-					<Col xs={12} md={4} lg={3}>
+					<Col xs={12} sm={6} md={4} lg={3}>
 						<Card className={ExperiencieStyles.card}>
 							<a href="https://nubodata.com">
 								<Card.Img variant="top" src={nubodata} alt="nubodata"/>
@@ -47,7 +47,7 @@ const ExperiencieSection = () => {
 						</Card>
 					</Col>
 					
-					<Col xs={12} md={4} lg={3}>
+					<Col xs={12} sm={6} md={4} lg={3}>
 						<Card className={ExperiencieStyles.card}>
 							<Card.Img variant="top" src={nontech} alt="nontechjobs"/>
 							<Card.Body className={ExperiencieStyles.cardNontech}>

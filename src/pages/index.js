@@ -19,7 +19,8 @@ const Index = () => {
 			
 			<Container fluid className={indexStyles.greetsContainer}>
 				<Container className={indexStyles.greets}>
-					<Row><h2>Hi all, I am <span>Dawichi</span>! <SuitHeartFill/></h2></Row>
+					<Row><h2>Hi all <SuitHeartFill/></h2></Row>
+					<Row><h2>I am <span><strong>David M. Fajardo</strong></span></h2></Row>
 					<Row><h2>Welcome to my portfolio!</h2></Row>
 					<Row><p> </p></Row>
 					<Row><h2>IMPORTANT: THIS SITE IS UNDER CONSTRUCTION, ITS INCOMPLETE!</h2></Row>

@@ -10,7 +10,8 @@ const ProjectsSection = () => {
 		<>
 			<Container className={ProjectsSectionStyles.projectsSection} fluid>
 
-				<Row><h4>Open Source Projects</h4></Row>
+				<Row><h4>Open source projects</h4></Row>
+				<Row><Button variant="info"><Link to="/projects/">My projects</Link></Button></Row>
 
 				<Row><Container><Row><Col><hr/></Col></Row></Container></Row>
 
