@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import { Col, Container, Row, Button, ProgressBar } from "react-bootstrap"
+import { Kanban, Person } from "react-bootstrap-icons"
 
 import AboutmeSectionStyles from "./AboutmeSection.module.scss"
 const AboutmeSection = () => {
@@ -13,15 +14,14 @@ const AboutmeSection = () => {
 			</svg>
 
 			<Container className={AboutmeSectionStyles.whoiam} fluid>
-				<Row><h4>Who I am?</h4></Row>
-				<Row><h4>Front-end web developer</h4></Row>
+				<Row><h4><Person/> Who I am?</h4></Row>
 				<Row><Button variant="info"><Link to="/about/">About me</Link></Button></Row>
 			</Container>
 
 			<Container className={AboutmeSectionStyles.whaticando} fluid>
 				<Row>
 					<Col xs={12} lg={3} className={AboutmeSectionStyles.label}>
-						<h4>And what can I do?</h4>
+						<h4><Kanban/> And what can I do?</h4>
 						<Button variant="info"><Link to="/skills/">My skills</Link></Button>
 					</Col>
 

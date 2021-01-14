@@ -1,6 +1,6 @@
 import React from "react"
 import { Col, Container, Row, Button, Card } from "react-bootstrap"
-import { ArrowUpRight } from "react-bootstrap-icons"
+import { ArrowUpRight, Book } from "react-bootstrap-icons"
 
 import StudiesSectionStyles from "./StudiesSection.module.scss"
 import cotarelo from '../../images/asir.png'
@@ -13,7 +13,7 @@ const StudiesSection = () => {
 			<Container className={StudiesSectionStyles.studies} fluid>
 				<Row>
 					<Col xs={12} sm={6} md={4} lg={3} height="100%">
-						<h4>Education</h4>
+						<h4><Book/> Education</h4>
 						<Button variant="info" href="https://www.linkedin.com/in/dawichi/" target="blank" className={StudiesSectionStyles.button}><ArrowUpRight/> More info</Button>
 					</Col>
 

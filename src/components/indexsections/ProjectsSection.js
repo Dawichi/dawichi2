@@ -3,6 +3,7 @@ import { Col, Container, Row, Button, Card } from "react-bootstrap"
 
 import ProjectsSectionStyles from "./ProjectsSection.module.scss"
 import { Link } from "gatsby"
+import { Envelope, Github } from "react-bootstrap-icons"
 
 const ProjectsSection = () => {
 
@@ -10,7 +11,7 @@ const ProjectsSection = () => {
 		<>
 			<Container className={ProjectsSectionStyles.projectsSection} fluid>
 
-				<Row><h4>Open source projects</h4></Row>
+				<Row><h4><Github/> Open source projects</h4></Row>
 				<Row><Button variant="info"><Link to="/projects/">My projects</Link></Button></Row>
 
 				<Row><Container><Row><Col><hr/></Col></Row></Container></Row>
@@ -60,7 +61,7 @@ const ProjectsSection = () => {
 
 			<Container className={ProjectsSectionStyles.contactContainer} fluid>
 				<Row>
-					<h4>Get in touch</h4>
+					<h4><Envelope/> Get in touch</h4>
 				</Row>
 				<Row>
 					<Button variant="info"><Link to="/contact/">Contact me</Link></Button>

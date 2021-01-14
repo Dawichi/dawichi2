@@ -1,6 +1,6 @@
 import React from "react"
 import { Col, Container, Row, Button, Card } from "react-bootstrap"
-import { ArrowUpRight } from "react-bootstrap-icons"
+import { ArrowUpRight, Laptop } from "react-bootstrap-icons"
 
 import ExperiencieStyles from "./ExperiencieSection.module.scss"
 
@@ -16,7 +16,7 @@ const ExperiencieSection = () => {
 			<Container className={ExperiencieStyles.experiencies} fluid>
 				<Row>
 					<Col xs={12} sm={6} md={4} lg={3} height="100%">
-						<h4>Experiencies</h4>
+						<h4><Laptop/> Experiencies</h4>
 						<Button variant="info" href="https://www.linkedin.com/in/dawichi/" target="blank" className={ExperiencieStyles.button}><ArrowUpRight/> More info</Button>
 					</Col>
 
