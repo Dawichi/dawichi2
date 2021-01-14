@@ -29,7 +29,7 @@
 		"terser": "^4.6.11"
 	},
 	"devDependencies": {
-		"prettier": "^1.19.1"
+		"prettier": "^2.2.1"
 	},
 	"keywords": [
 		"gatsby"
