@@ -13,7 +13,6 @@ const ProjectsSection = () => {
 
 				<Row><h4><Github/> Open source projects</h4></Row>
 				<Row><Button variant="info"><Link to="/projects/">My projects</Link></Button></Row>
-
 				<Row><Container><Row><Col><hr/></Col></Row></Container></Row>
 
 				<Row>
@@ -67,6 +66,8 @@ const ProjectsSection = () => {
 					<Button variant="info"><Link to="/contact/">Contact me</Link></Button>
 				</Row>
 			</Container>
+
+			
 		</>
 	)
 }
