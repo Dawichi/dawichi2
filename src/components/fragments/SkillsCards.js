@@ -2,6 +2,8 @@ import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import cardStyles from './SkillsCards.module.scss'
 
+// This cards were inspired by:		https://codepen.io/Aoyue/pen/pLJqgE
+
 const SkillsCards = () => {
 	return (
 		<>
@@ -439,13 +441,12 @@ const SkillsCards = () => {
 							</div>
 						</Col>
 						
-
-						
 					</Row>
 				</Container>
 			</Container>
 		</>
 	)
 }
+
 
 export default SkillsCards

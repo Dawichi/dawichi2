@@ -9,16 +9,30 @@
 	.greets {
 		text-align: center;
 		
-		&:hover {
-			transform: translate(0px, -5px);
-			transition-duration: 0.3s;
-		}
-		h2 {margin: 0 auto;}
+		h2 { margin: 0 auto; }
 		
 		span strong {
 			color: var(--color-primary);
 			font-family: 'Pacifico';
 			font-size: 1.7rem;
+		}
+
+		.underline {
+			position: relative;
+			z-index: 0;
+
+			span:before {
+				content: '';
+				position: absolute;
+				bottom: 0;
+				right: -20px;
+				width: 45%;
+				height: 8px;
+				border-radius: 4px;
+				background-color: var(--color-secondaryvariant);
+				transform: rotate(-4deg);
+				z-index: -1;
+			}
 		}
 	}
 }

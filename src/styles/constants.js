@@ -27,6 +27,10 @@ export const COLORS = {
 		light: '#01a299',
 		dark: '#03dac6',
 	},
+	secondaryswap: {
+		light: '#03dac6',
+		dark: '#01a299',
+	},
 	secondaryvariant: {
 		light: '#018786',
 		dark: '#018786',

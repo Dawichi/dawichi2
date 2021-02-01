@@ -1,0 +1,64 @@
+.card {
+    position: relative;
+    border-radius: 10px;
+    height: 330px;
+    width: 300px;
+    margin: auto;
+    background-image: url(https://avatars.githubusercontent.com/u/51042900?s=460&u=6ea5a1a783846ff39228a3bff3db1a5bf6b8c17d&v=4);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	box-shadow: rgba(9, 30, 66, 0.31) 0px 0px 1px 0px, rgba(9, 30, 66, 0.25) 0px 1px 2px 0px;
+	overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: calc(100% + 1px);
+    background-color: black;
+    opacity: 0;
+    transition: opacity 0.15s ease-in;
+}
+
+.card:hover .overlay {
+    opacity: 0.6;
+}
+
+.content {
+    z-index: 1;
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    bottom: 0;
+}
+
+svg.animation {
+    position: absolute;
+    fill: var(--color-content);
+    left: 0;
+    bottom: 0;
+    width: 400px;
+    height: 450px;
+}
+
+.info {
+	font-family: Inconsolata;
+    padding-left: 20px;
+    transform: translateY(250px);
+
+    transition: transform 1s cubic-bezier(.31,1.21,.64,1.02);
+}
+
+.card:hover .info {
+    transform: translateY(0px);
+}
+
+.name {
+    font-weight: bolder;
+    padding-top: 5px;
+}
+
+.job {
+    margin-top: 10px;
+}

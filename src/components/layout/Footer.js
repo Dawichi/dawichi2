@@ -24,11 +24,10 @@ const Footer = () => {
 								{new Date().getFullYear().toString()}{" "}
 							</Col>
 							<Col xs={12} sm={6}>
-								Made with so much <span>♥</span>! 감사합니다!
+								Made with <span className={footerStyles.js}>JS</span> and <span className={footerStyles.love}>♥</span> !
 							</Col>
 						</Row>
 					</Container>
-					
 				</div>
 			</footer>
 		</>

@@ -18,5 +18,17 @@
 	.container {
 		padding: 10px 0 10px 1rem;
 		text-align: center;
+
+		.js {
+			background-color: #e6c770;
+			border-radius: 4px;
+			display: inline-block;
+			padding: 0 5px;
+			transform: rotate(-3deg);
+		}
+		.love {
+			color: red;
+			font-size: 20px;
+		}
 	}
 }

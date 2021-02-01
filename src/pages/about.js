@@ -1,4 +1,6 @@
 import React from "react"
+import { Container } from "react-bootstrap"
+import MeCard from "../components/fragments/MeCard"
 // Components
 import Layout from "../components/layout/Layout"
 import Metadata from "../components/layout/Metadata"
@@ -10,6 +12,15 @@ const About = () => {
 		<Layout className="layout">
 			<Metadata title="About" description="Some info about me" />
 
+			<Container className={aboutStyles.container} fluid>
+				<MeCard/>
+				<span className={aboutStyles.s1}>HTML</span>
+				<span className={aboutStyles.s2}>CSS</span>
+				<span className={aboutStyles.s3}>JS</span>
+				<span className={aboutStyles.s4}>React</span>
+				<span className={aboutStyles.s5}>Gatsby</span>
+				<span className={aboutStyles.s6}>Angular</span>
+			</Container>
 			{/* <div className={aboutStyles.container}>
 				<h1 className={aboutStyles.title}>Me!</h1><hr/>
 
