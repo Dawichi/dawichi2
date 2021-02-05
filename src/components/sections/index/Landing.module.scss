@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+.Landingcontainer {
+	background-color: var(--color-container);
+	position: relative;
+	height: 100vh;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	h1 {
+		font-family: 'Rubik';
+		text-align: center;
+		transform: translateY(-60%);
+
+		span { font-family: 'Rubik'; display: inline-block; }
+		a { color: var(--color-text); margin: 10px; text-decoration: none;}
+	}
+	
+
+	.arrowcontainer {
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+
+		svg { fill: var(--color-text)}
+	}
+}

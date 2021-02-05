@@ -1,6 +1,6 @@
 export const COLORS = {
 	background: {
-		light: '#f7f7f7',
+		light: '#f0f0f0',
 		dark: '#121212',
 	},
 	container: {

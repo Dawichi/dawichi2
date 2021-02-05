@@ -1,12 +1,12 @@
 import React from "react"
 // Components
-import Header from "./Header"
 import Footer from "./Footer"
+import Navigationbar from "./Navigationbar"
 
 const Layout = props => {
 	return (
 		<>
-			<Header />
+			<Navigationbar/>
 				<main>{props.children}</main>
 			<Footer />
 		</>

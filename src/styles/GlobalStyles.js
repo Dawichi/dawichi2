@@ -1,13 +1,17 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
+
+	/* Animate.css */
+	@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
 	*, *:before, *:after {
 		box-sizing: border-box;
 		font-family: Futura, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,	Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	}
 
 	body {
-		background: var(--color-background);
+		background: var(--color-container);
 		color: var(--color-text);
 	}
 
