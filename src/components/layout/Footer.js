@@ -9,6 +9,8 @@ const Footer = () => {
 			<Container className={footerStyles.buymeacoffee} fluid>
 				<a href="https://www.buymeacoffee.com/dawichi">
 					<img
+						height="50px"
+						width="235px"
 						alt="https://www.buymeacoffee.com/dawichi"
 						src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=dawichi&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"
 					/>
@@ -30,6 +32,8 @@ const Footer = () => {
 					</Container>
 				</div>
 			</footer>
+
+			<script type="text/javascript" src="/navbarboxshadow.js"></script>
 		</>
 	)
 }

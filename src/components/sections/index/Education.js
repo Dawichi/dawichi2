@@ -1,6 +1,6 @@
 import React from "react"
-import { Col, Container, Row, Button, Card } from "react-bootstrap"
-import { ArrowUpRight, Book } from "react-bootstrap-icons"
+import { Col, Container, Row, Card } from "react-bootstrap"
+import { Book } from "react-bootstrap-icons"
 
 import EducationStyles from "./Education.module.scss"
 import cotarelo from '../../../images/asir.png'

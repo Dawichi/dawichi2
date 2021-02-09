@@ -39,8 +39,10 @@
 	width: auto;
 
 	hr {
-		background-image: linear-gradient(to right, #ff6b6b, #ff5581, #f8449c, #e440ba, #c04ada, #9172f6, #588eff, #00a2ff, #00c3ff, #00def0, #00f2b9, #7cff76);
-		border-radius: 5px; height: 3px; width: 60%;
+		background-color: var(--color-text);
+		border-radius: 5px;
+		height: 2px;
+		width: 60%;
 	}
 
 	button {margin: 20px auto;}

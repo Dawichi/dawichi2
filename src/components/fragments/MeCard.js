@@ -1,5 +1,4 @@
 import React from 'react'
-import { Container, Row, Col } from "react-bootstrap"
 import mecardStyles from './MeCard.module.scss'
 
 // Card inspired by:	https://codepen.io/zebateira/pen/zrvwGR

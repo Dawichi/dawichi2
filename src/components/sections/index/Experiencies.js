@@ -1,6 +1,6 @@
 import React from "react"
-import { Col, Container, Row, Button, Card } from "react-bootstrap"
-import { ArrowUpRight, Laptop } from "react-bootstrap-icons"
+import { Col, Container, Row, Card } from "react-bootstrap"
+import { Laptop } from "react-bootstrap-icons"
 
 import ExperienciesStyles from "./Experiencies.module.scss"
 
