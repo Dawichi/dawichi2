@@ -15,6 +15,7 @@ import Projects from "../components/sections/index/Projects"
 import indexStyles from "./index.module.scss"
 
 
+
 const Index = () => {
 
 	return (

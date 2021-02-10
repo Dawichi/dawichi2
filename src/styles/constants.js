@@ -47,6 +47,10 @@ export const COLORS = {
 		light: '#B00020',
 		dark: '#CF6679',
 	},
+	navbar: {
+		light: '#fafbfcdd',
+		dark: '#1d1d1ddd',
+	},
 
 
 };

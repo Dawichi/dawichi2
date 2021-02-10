@@ -1,8 +1,7 @@
 /* NavBar Bootstrap */
 .NavbarContainer {
-	background-color: var(--color-container);
-	box-shadow: 0 6px 0 -5px rgba(77, 77, 77, 0.4);
-	opacity: 0.95;
+	background-color: var(--color-navbar);
+	backdrop-filter: blur(4px);
 	
 	.brand {
 		color: var(--color-text);
