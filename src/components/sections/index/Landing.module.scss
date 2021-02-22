@@ -10,21 +10,84 @@
 	flex-direction: column;
 	justify-content: center;
 
+	/* Text with Icons */
 	h1 {
 		font-family: 'Rubik';
 		text-align: center;
 		transform: translateY(-30%);
+		z-index: 2;
 
 		span { font-family: 'Rubik'; display: inline-block; }
-		a { color: var(--color-text); margin: 10px; text-decoration: none;}
-	}
-	
 
+		a {
+			color: var(--color-text);
+			margin: 10px;
+			text-decoration: none;
+			
+			svg:hover { color: var(--color-secondary); }
+		}
+	}
+
+	/* Arrow bottom */
 	.arrowcontainer {
 		display: flex;
 		justify-content: center;
 		align-items: flex-end;
 
 		svg { fill: var(--color-text)}
+	}
+	@media screen and (max-width: 500px) { .arrowcontainer { display: none; } }
+
+
+	/* SVG Art */
+	.svgs {
+		margin: 0 1vw;
+		position: absolute;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.web-dev, .app-dev { width: 25%;}
+
+		@media screen and (max-width: 1200px) {
+			.web-dev {transform: translateY(-35vh);}
+			.app-dev {transform: translateY(22vh);}
+		}
+		@media screen and (max-width: 900px) {
+			.web-dev, .app-dev { width: 30%;}
+		}
+		@media screen and (max-width: 900px) {
+			.web-dev, .app-dev { width: 35%;}
+			.web-dev {transform: translateY(-40vh);}
+		}
+
+		// .web-dev {
+		// 	position: absolute;
+		// 	left: 10%;
+		// 	width: 20%;
+		// }
+		// .app-dev {
+		// 	position: absolute;
+		// 	right: 10%;
+		// 	width: 20%;
+		// }
+		// @media screen and (max-width: 1200px) {
+		// 	.web-dev { top: 5%; left: 10%;	width: 25%; }
+		// 	.app-dev { top: 60%; right: 10%; width: 25%; }
+		// }
+		// @media screen and (max-width: 900px) {
+		// 	.web-dev { width: 35%; }
+		// 	.app-dev { width: 35%; }
+		// }
+		// @media screen and (max-width: 500px) {
+		// 	.web-dev {
+		// 		left: 5%;
+		// 		width: 35%;
+		// 	}
+		// 	.app-dev {
+		// 		right: 5%;
+		// 		width: 35%;
+		// 	}
+		// }
 	}
 }

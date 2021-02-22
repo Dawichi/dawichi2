@@ -15,10 +15,8 @@ const Navigationbar = () => {
 			<Navbar.Collapse id="responsive-navbar-nav">
 				<Nav className="mr-auto ml-auto">
 					<Link to="/" activeClassName={NavbarStyles.active}>Home</Link>
-					<Link to="/about/" activeClassName={NavbarStyles.active} >About me</Link>
 					<Link to="/skills/" activeClassName={NavbarStyles.active} >My skills</Link>
 					<Link to="/projects/" activeClassName={NavbarStyles.active} >My projects</Link>
-					<Link to="/contact/" activeClassName={NavbarStyles.active} >Contact</Link>
 					<Link to="/blog/" activeClassName={NavbarStyles.active} >Blog</Link>
 				</Nav>
 				<Nav>

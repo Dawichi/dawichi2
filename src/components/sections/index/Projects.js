@@ -66,7 +66,7 @@ const Projects = () => {
 				<h4><Envelope/> Get in touch</h4>
 				<hr/>
 				<Row>
-					<Button variant="info"><Link to="/contact/">Contact me</Link></Button>
+					<Button variant="info">Contact me</Button>
 				</Row>
 			</Container>
 

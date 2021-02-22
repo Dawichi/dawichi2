@@ -6,7 +6,7 @@ import footerStyles from "./Footer.module.scss"
 const Footer = () => {
 	return (
 		<>
-			<Container className={footerStyles.buymeacoffee} fluid>
+			{/* <Container className={footerStyles.buymeacoffee} fluid>
 				<a href="https://www.buymeacoffee.com/dawichi">
 					<img
 						height="50px"
@@ -15,7 +15,7 @@ const Footer = () => {
 						src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=dawichi&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"
 					/>
 				</a>
-			</Container>
+			</Container> */}
 		
 			<footer className={ footerStyles.siteFooter }>
 				<div className={ footerStyles.container }>

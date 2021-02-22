@@ -26,66 +26,66 @@ const Skillbars = () => {
 						<Button variant="info"><Link to="/skills/">My skills</Link></Button>
 					</Col>
 
-					<Col xs={12} lg={4}>
-						<p>
+					<Col xs={12} lg={4} className={SkillbarsStyles.progressBars}>
+						<div>
 							HTML / CSS (Sass, Less) <span>95%</span>
-							<ProgressBar striped variant="info" now={95} animated />
-						</p>
-						<p>
+							<ProgressBar variant="info" now={95} />
+						</div>
+						<div>
 							TypeScript / Angular 9 <span>80%</span>
-							<ProgressBar striped variant="danger" now={80} animated />
-						</p>
-						<p>
+							<ProgressBar variant="danger" now={80} />
+						</div>
+						<div>
 							Node / Express <span>75%</span>
-							<ProgressBar striped variant="success" now={75} animated />
-						</p>
-						<p>
+							<ProgressBar variant="success" now={75} />
+						</div>
+						<div>
 							JavaScript / JQuery / React <span>95%</span>
-							<ProgressBar striped variant="primary" now={95} animated />
-						</p>
-						<p>
+							<ProgressBar variant="primary" now={95} />
+						</div>
+						<div>
 							Gatsby / GraphQL <span>85%</span>
-							<ProgressBar striped variant="dark" now={85} animated />
-						</p>
-						<p>
-							MariaDB / MySQL <span>80%</span>
-							<ProgressBar striped variant="warning" now={80} animated />
-						</p>
-						<p>
+							<ProgressBar variant="dark" now={85} />
+						</div>
+						<div>
+							MariaDB / MySQL <span>75%</span>
+							<ProgressBar variant="warning" now={75} />
+						</div>
+						<div>
 							MongoDB <span>55%</span>
-							<ProgressBar striped variant="success" now={55} animated />
-						</p>
+							<ProgressBar variant="success" now={55} />
+						</div>
 					</Col>
 
-					<Col xs={12} lg={4}>
-						<p>
+					<Col xs={12} lg={4} className={SkillbarsStyles.progressBars}>
+						<div>
 							PHP / Laravel / Symphony <span>30%</span>
-							<ProgressBar striped variant="danger" now={30} animated />
-						</p>
-						<p>
+							<ProgressBar variant="danger" now={30} />
+						</div>
+						<div>
 							Git / Trello / Jira / Slack <span>95%</span>
-							<ProgressBar striped variant="info" now={95} animated />
-						</p>
-						<p>
+							<ProgressBar variant="info" now={95} />
+						</div>
+						<div>
 							Wordpress / Prestashop / Drupal <span>70%</span>
-							<ProgressBar striped variant="warning" now={70} animated />
-						</p>
-						<p>
+							<ProgressBar variant="warning" now={70}  />
+						</div>
+						<div>
 							Docker <span>75%</span>
-							<ProgressBar striped variant="primary" now={75} animated />
-						</p>
-						<p>
+							<ProgressBar variant="primary" now={75} />
+						</div>
+						<div>
 							Linux services <span>65%</span>
-							<ProgressBar striped variant="success" now={65} animated />
-						</p>
-						<p>
+							<ProgressBar variant="success" now={65} />
+						</div>
+						<div>
 							Framer / Sketch / Photoshop <span>20%</span>
-							<ProgressBar striped variant="info" now={20} animated />
-						</p>
-						<p>
+							<ProgressBar variant="danger" now={20} />
+						</div>
+						<div>
 							Doc writing / Communication <span>95%</span>
-							<ProgressBar striped variant="dark" now={95} animated />
-						</p>
+							<ProgressBar variant="dark" now={95} />
+						</div>
 					</Col>
 				</Row>
 			</Container>

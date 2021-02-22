@@ -9,11 +9,11 @@
 		height: 12vh;
 		width: 100%;
 		
-		path {stroke: none;fill: #03dac527;}
+		path {stroke: none;fill: #bb86fc27;}
 	}
 
 	.whoiam {
-		background-color: #03dac527;
+		background-color: #bb86fc27;
 		color: var(--color-text);
 
 		h4 {margin: 0 auto;}
@@ -31,6 +31,8 @@
 		padding: 30px 10px;
 
 		.label {text-align: center;}
+
+		.progress-bars > div { padding-bottom: 1rem;}
 		
 		h4 {margin: 30px 0 20px 0;}
 		button {

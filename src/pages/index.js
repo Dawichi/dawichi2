@@ -13,6 +13,7 @@ import Projects from "../components/sections/index/Projects"
 
 // Styles
 import indexStyles from "./index.module.scss"
+import Aboutme from "../components/sections/index/Aboutme"
 
 
 
@@ -25,6 +26,7 @@ const Index = () => {
 			<Landing/>
 			
 			<Skillbars/><br/>
+			<Aboutme/><br/>
 			<Experiencies/><br/>
 			<Education/><br/>
 			<Projects/><br/>
