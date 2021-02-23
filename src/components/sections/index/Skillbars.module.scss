@@ -16,12 +16,16 @@
 		background-color: #bb86fc27;
 		color: var(--color-text);
 
-		h4 {margin: 0 auto;}
-		
-		button {
-			margin: 20px auto 35px auto;
-			a {color: white; display: block; text-decoration: none;}
+		h3 {
+			padding: 15px 0;
+			margin: 0;
+			text-align: center;
 		}
+	}
+
+	.inverted-svg {
+		background-color: #bb86fc27;
+		path {stroke: none;fill: var(--color-container);}
 	}
 
 	.whaticando {

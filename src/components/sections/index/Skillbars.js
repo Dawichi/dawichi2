@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import { Col, Container, Row, Button, ProgressBar } from "react-bootstrap"
-import { Kanban, Person } from "react-bootstrap-icons"
+import { Kanban, CodeSlash } from "react-bootstrap-icons"
 
 import SkillbarsStyles from "./Skillbars.module.scss"
 
@@ -15,14 +15,19 @@ const Skillbars = () => {
 			</svg>
 
 			<Container className={SkillbarsStyles.whoiam} fluid>
-				<Row><h4><Person/> Who I am?</h4></Row>
-				<Row><Button variant="info"><Link to="/about/">About me</Link></Button></Row>
+				<div>
+					<h3>Web design <br/> <CodeSlash/></h3> 
+				</div>
 			</Container>
+			
+			<svg viewBox="0 0 500 150" preserveAspectRatio="none" className={SkillbarsStyles.invertedSvg}>
+				<path d="M0.00,49.98 C180.86,149.50 327.03,0.50 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"></path>
+			</svg>
 
 			<Container className={SkillbarsStyles.whaticando} fluid>
 				<Row>
 					<Col xs={12} lg={3} className={SkillbarsStyles.label}>
-						<h4><Kanban/> And what can I do?</h4>
+						<h4><Kanban/> What I can do?</h4>
 						<Button variant="info"><Link to="/skills/">My skills</Link></Button>
 					</Col>
 
