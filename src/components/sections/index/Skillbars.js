@@ -28,7 +28,7 @@ const Skillbars = () => {
 				<Row>
 					<Col xs={12} lg={3} className={SkillbarsStyles.label}>
 						<h4><Kanban/> What I can do?</h4>
-						<Button variant="info"><Link to="/skills/">My skills</Link></Button>
+						<Button variant="info"><Link to="/skills/">My tools</Link></Button>
 					</Col>
 
 					<Col xs={12} lg={4} className={SkillbarsStyles.progressBars}>

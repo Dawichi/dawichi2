@@ -14,6 +14,7 @@ import Projects from "../components/sections/index/Projects"
 // Styles
 import indexStyles from "./index.module.scss"
 import Aboutme from "../components/sections/index/Aboutme"
+import Languages from "../components/sections/index/Languages"
 
 
 
@@ -27,6 +28,7 @@ const Index = () => {
 			
 			<Skillbars/><br/>
 			<Aboutme/><br/>
+			<Languages/><br/>
 			<Experiencies/><br/>
 			<Education/><br/>
 			<Projects/><br/>

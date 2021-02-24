@@ -4,7 +4,7 @@ window.addEventListener('scroll', (e) => {
 	var nav = document.getElementById('navboxshadow')
 
 	if (window.pageYOffset > 0) {
-		nav.style.boxShadow = "rgb(77 77 77) 0px 0px 10px"
+		nav.style.boxShadow = "rgb(77 77 77) 0px 0px 6px"
 	} else {
 		nav.style.boxShadow = "none"
 	}

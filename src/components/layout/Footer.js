@@ -22,7 +22,7 @@ const Footer = () => {
 					<Container>
 						<Row>
 							<Col xs={12} sm={6}>
-								Site developed by me &copy;{" "}
+								Site developed by me :) &copy;{" "}
 								{new Date().getFullYear().toString()}{" "}
 							</Col>
 							<Col xs={12} sm={6}>

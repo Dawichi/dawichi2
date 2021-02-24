@@ -3,8 +3,8 @@ import { Container } from "react-bootstrap"
 import { FileEarmarkPerson, Github, Instagram, Linkedin, SuitHeartFill, Twitter } from "react-bootstrap-icons"
 
 import LandingStyles from "./Landing.module.scss"
-import webDev from '../../../images/svg/developer-web.svg'
-import appDev from '../../../images/svg/developer-app.svg'
+import webDev from '../../../images/svg/dev-web.svg'
+import appDev from '../../../images/svg/dev-app.svg'
 
 const Landing = () => {
 
