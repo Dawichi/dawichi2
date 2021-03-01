@@ -2,6 +2,7 @@
 .NavbarContainer {
 	background-color: var(--color-navbar);
 	backdrop-filter: blur(4px);
+	transition: box-shadow 0.3s ease-in-out;
 	
 	.brand {
 		color: var(--color-text);
